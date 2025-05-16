@@ -27,21 +27,11 @@ Manual video surveillance is resource-intensive, inconsistent, and prone to huma
 
 ---
 
-## 🧪 Model Architecture
+## 🧪 Model Flow (Summarized in Poster Below)
 
-### 🔄 Two-Stream Inflated 3D ConvNet (I3D)
-Extracts spatio-temporal features from:
-- RGB Frames (scene understanding)
-- Optical Flow (motion patterns)
+Instead of detailed architecture visuals, here’s a view of the entire system methodology and key concepts captured in the official project poster:
 
-![I3D Architecture](path/to/i3d_diagram.png)
-
----
-
-### 🔷 Vision Transformer (ViT)
-Processes video snippets using attention to detect high-impact anomalous frames.
-
-![ViT Flow](path/to/vit_diagram.png)
+![Guardian Vision Poster](./assets/poster.jpg)
 
 ---
 
@@ -63,8 +53,6 @@ Evaluated on the **UCF-Crime Dataset** containing 1,920 real-world surveillance 
 - Built using **React** for both web and mobile.
 - Users enter an **IP address of a live CCTV camera** to start real-time surveillance.
 - Detected anomalies are shown instantly as labeled alerts (e.g., "Robbery Detected").
-
-![Interface Screenshot](path/to/gui_screenshot.png)
 
 ---
 
@@ -95,6 +83,4 @@ Guardian Vision demonstrates how **Transformer-based models** can be practically
 
 ---
 
-> **Note**: Diagrams and images shown above should be placed in your GitHub repository under a `/docs/` or `/assets/` folder and linked accordingly (e.g., `![Title](./assets/i3d_diagram.png)`).
-
-Let me know if you'd like me to generate those diagrams as visuals or help with formatting your GUI screenshots.
+> 📎 *Place `poster.jpg` in your `/assets/` folder and ensure the path is correct to render it on GitHub.*
