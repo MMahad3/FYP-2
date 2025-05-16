@@ -19,7 +19,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load trained model
-model = load_model('C:/Users/HP/Desktop/fyp/prototype1/models/saved_model/my_resnetkeras_model.keras')
+model = load_model('N:/FAST UNIVERSITY/FYP/FYP-2/my_resnetkeras_model.keras') #you can include other models as well
 
 # Configuration
 HLS_SEGMENTS_DIR = 'C:/Users/HP/Desktop/fyp/realtime/server/videos/ipcam'
