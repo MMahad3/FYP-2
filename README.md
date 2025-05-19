@@ -31,7 +31,7 @@ Manual video surveillance is resource-intensive, inconsistent, and prone to huma
 
 Instead of detailed architecture visuals, here’s a view of the entire system methodology and key concepts captured in the official project poster:
 
-![Guardian Vision Poster](./assets/poster.jpg)
+![Guardian Vision Poster](./documents/poster.jpg)
 
 ---
 
@@ -72,10 +72,10 @@ Guardian Vision demonstrates how **Transformer-based models** can be practically
 
 ---
 
-## 👨‍💻 Team
 
-- **Taha Ahmed** – 21K-4833  
-- **Mahad Munir** – 21K-3388  
+## 👨‍💻 Team
+- **Muhammad Mahad Munir** – 21K-3388
+- **Taha Ahmed** – 21K-4833    
 - **Asad Noor Khan** – 21K-4678  
 - **Supervisor**: Muhammad Nouman Durrani  
 - **Institute**: FAST NUCES, Karachi Campus  
@@ -83,4 +83,4 @@ Guardian Vision demonstrates how **Transformer-based models** can be practically
 
 ---
 
-> 📎 *Place `poster.jpg` in your `/assets/` folder and ensure the path is correct to render it on GitHub.*
+
